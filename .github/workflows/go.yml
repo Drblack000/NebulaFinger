@@ -77,7 +77,7 @@ jobs:
       shell: bash
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: nebulafinger_${{ env.VERSION }}_${{ matrix.goos }}_${{ matrix.goarch }}
         path: release/*
@@ -93,7 +93,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Download all artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         path: release
 
