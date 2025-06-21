@@ -50,7 +50,7 @@ go build -o nebulafinger.exe ./cmd
 ```
 
 ### 直接下载预编译版本 | Download Pre-compiled Version
-从 [Releases](https://github.com/yourusername/nebulafinger/releases) 页面下载适合您系统的预编译版本，目前仅编译win版本，其余版本可自行编译
+从 [Releases](https://github.com/drblack000/nebulafinger/releases) 页面下载适合您系统的预编译版本，目前仅编译win版本，其余版本可自行编译
 
 ![](image.png)![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750499663575-a09a860c-1f8f-4136-a539-b12451525fe0.png)
 ![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750499752749-22136e75-3486-450d-bad6-8fb1e516656b.png)
