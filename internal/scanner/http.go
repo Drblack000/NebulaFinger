@@ -189,7 +189,7 @@ func (s *Scanner) matchHttpPortFingerprints(parsedURL *url.URL, port uint16, can
 	// 先添加默认路径，这些是优先级最高的
 	for name, cluster := range s.WebCluster.WebDefault {
 		pathClusters = append(pathClusters, HttpClusterInfo{
-			Name:    fmt.Sprintf("%s", name),
+			Name:    strconv.Itoa(name),
 			Path:    cluster.Path,
 			Rarity:  cluster.Rarity,
 			Default: true,
@@ -199,7 +199,7 @@ func (s *Scanner) matchHttpPortFingerprints(parsedURL *url.URL, port uint16, can
 	// 再添加其他路径
 	for name, cluster := range s.WebCluster.WebOther {
 		pathClusters = append(pathClusters, HttpClusterInfo{
-			Name:    fmt.Sprintf("%s", name),
+			Name:    strconv.Itoa(name),
 			Path:    cluster.Path,
 			Rarity:  cluster.Rarity,
 			Default: false,
@@ -208,7 +208,7 @@ func (s *Scanner) matchHttpPortFingerprints(parsedURL *url.URL, port uint16, can
 	// 再添加其他路径
 	for name, cluster := range s.WebCluster.WebFavicon {
 		pathClusters = append(pathClusters, HttpClusterInfo{
-			Name:    fmt.Sprintf("%s", name),
+			Name:    strconv.Itoa(name),
 			Path:    cluster.Path,
 			Rarity:  cluster.Rarity,
 			Default: false,

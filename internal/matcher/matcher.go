@@ -3,6 +3,7 @@ package matcher
 import (
 	"nebulafinger/internal"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
@@ -217,7 +218,7 @@ func matchWords(matcher internal.Matchers, resp *HTTPResponse) bool {
 	case "all", "response":
 		var all strings.Builder
 		all.WriteString("HTTP/1.1 ")
-		all.WriteString(string(resp.StatusCode))
+		all.WriteString(strconv.Itoa(resp.StatusCode))
 		all.WriteString("\n")
 
 		for name, values := range resp.Headers {
@@ -316,7 +317,7 @@ func matchRegex(matcher internal.Matchers, resp *HTTPResponse) bool {
 	case "all", "response":
 		var all strings.Builder
 		all.WriteString("HTTP/1.1 ")
-		all.WriteString(string(resp.StatusCode))
+		all.WriteString(strconv.Itoa(resp.StatusCode))
 		all.WriteString("\n")
 
 		for name, values := range resp.Headers {
