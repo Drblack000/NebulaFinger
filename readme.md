@@ -4,8 +4,7 @@
 
 <h1>🌳 NebulaFinger | 一款高效的WEB与服务指纹识别工具</h1>
 
-![](https://img.shields.io/badge/1.24.3-Go-blue?style=flat-square&logo=go) ![](https://img.shields.io/badge/Version-1.0.0-green.svg) ![](https://img.shields.io/github/issues/Drblack000/NebulaFinger/issues?color=orange&logo=github) ![](https://img.shields.io/github/stars/your-project?style=social) ![](https://img.shields.io/badge/Blog-drblack.top-00A3E0?style=flat-square&logo=blogger)
-
+[![Go 语言](https://img.shields.io/badge/Language-Go-blue?style=flat-square&logo=go)](https://go.dev)  [![版本](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/Drblack000/NebulaFinger/releases)  [![Issues](https://img.shields.io/github/issues/Drblack000/NebulaFinger/issues?color=orange&logo=github)](https://github.com/Drblack000/NebulaFinger/issues) [![Stars](https://img.shields.io/github/stars/Drblack000/NebulaFinger?style=social)](https://github.com/Drblack000/NebulaFinger)  [![博客](https://img.shields.io/badge/Blog-drblack.top-00A3E0?style=flat-square&logo=blogger)](https://drblack.top)
 </div>
 
 
