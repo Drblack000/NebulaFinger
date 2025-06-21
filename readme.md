@@ -44,7 +44,9 @@ git clone https://github.com/yourusername/nebulafinger.git
 cd nebulafinger
 
 # 编译
-go build -o nebulafinger cmd/*.go
+go build -o nebulafinger.exe ./cmd
+#运行
+.\nebulafinger.exe -h
 ```
 
 ### 直接下载预编译版本 | Download Pre-compiled Version
