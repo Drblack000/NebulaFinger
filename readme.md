@@ -1,11 +1,14 @@
+<div align="center">
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750492454371-08523dae-1e70-493a-aad2-e92e5366054a.png)
-<div align="center">
-<h1>🌳 NebulaFinger | 一款高效的WEB与服务指纹识别工具
 
-[![Go 语言](https://img.shields.io/badge/Language-Go-blue?style=flat-square&logo=go)](https://go.dev) [![版本](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/Drblack000/NebulaFinger/releases)  [![Issues](https://img.shields.io/github/issues/Drblack000/NebulaFinger/issues?color=orange&logo=github)](https://github.com/Drblack000/NebulaFinger/issues) [![Stars](https://img.shields.io/github/stars/Drblack000/NebulaFinger?style=social)](https://github.com/Drblack000/NebulaFinger) [![博客](https://img.shields.io/badge/Blog-drblack.top-00A3E0?style=flat-square&logo=blogger)](https://drblack.top)
-</h1>
+<h1>🌳 NebulaFinger | 一款高效的WEB与服务指纹识别工具</h1>
+
+![](https://img.shields.io/badge/Language-Go-blue?style=flat-square&logo=go) ![](https://img.shields.io/badge/Version-1.0.0-green.svg) ![](https://img.shields.io/github/issues/Drblack000/NebulaFinger/issues?color=orange&logo=github) ![](https://img.shields.io/github/stars/your-project?style=social) ![](https://img.shields.io/badge/Blog-drblack.top-00A3E0?style=flat-square&logo=blogger)
+
 </div>
+
+
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750495997599-9518963b-66d2-4d04-9f9b-6c53b355318b.png)
 
@@ -14,7 +17,7 @@
 
 ## 👨‍💻 关于作者 | About the Author
 + 作者: DrBlack
-+ GitHub: [Your GitHub Profile](https://github.com/drblack000)
++ GitHub: [drblack000](https://github.com/yourusername)
 + Blog: [drblack.top](https://drblack.top)
 
 ## 📖 项目介绍 | Introduction
@@ -45,7 +48,8 @@ go build -o nebulafinger cmd/*.go
 ```
 
 ### 直接下载预编译版本 | Download Pre-compiled Version
-从 [Releases](https://github.com/drblack000/nebulafinger/releases) 页面下载适合您系统的预编译版本。
+从 [Releases](https://github.com/yourusername/nebulafinger/releases) 页面下载适合您系统的预编译版本，目前仅编译win版本，其余版本可自行编译
+![alt text](image.png)
 
 ## 📁 项目结构 | Project Structure
 ```plain
@@ -91,7 +95,6 @@ NebulaFinger/
 ./nebulafinger -t example.com -m all
 
 ```
-
 ### 命令行选项 | Command-line Options
 ```plain
  -c                 并发数（默认：5）
@@ -111,14 +114,6 @@ NebulaFinger/
 ## 📊 输出示例 | Output Examples
 ### 控制台输出 | Console Output
 ![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750495975051-b0d1c539-f75d-4fe2-bf58-d3908e340993.png)
-
-```plain
-┌─[ WEB-FINGERPRINTS ] [WordPress • PHP] http://example.com
-└─ 200 │ Example Site - Just another WordPress site
-
-┌─[ TCP-SERVICES ] [Nginx] example.com
-└─ 80 │ version=1.18.0
-```
 
 ### HTML报告 | HTML Report
 HTML报告提供了更丰富的视觉展示，包括指纹匹配结果、HTTP状态码、网站标题等详细信息，并按照不同类型进行分类展示。
@@ -196,10 +191,7 @@ NebulaFinger采用智能置信度系统，为不同类型的匹配项分配不�
 ```
 
 ### 自定义TCP端口配置 | Custom TCP Port Configuration
-您可以通过修改`configs/tcp_ports.json`文件自定义TCP扫描端口：
-
-You can customize TCP scanning ports by modifying the `configs/tcp_ports.json` file:
-
+您可以通过修改`configs/tcp_ports.json`文件自定义TCP扫描端口，不建议设置过多，3-5个即可。
 ```json
 {
   "default_ports": [21, 22, 25, 80, 443, 1521, 3306, 5432, 6379, 8080, 8443, 9200, 27017],
@@ -213,7 +205,7 @@ You can customize TCP scanning ports by modifying the `configs/tcp_ports.json` f
 ```
 
 ## 🔄 更新日志 | Changelog
-### v1.0.1 (2023-06-20)
+### v1.0.1 (2025-06-20)
 + **新增**: 优化HTML报告界面，添加指纹类型、状态码和置信度筛选功能
 + **新增**: 改进指纹展示方式，每个指纹独立展示，不再合并
 + **新增**: 添加实时搜索功能，支持按关键词筛选结果
@@ -222,7 +214,7 @@ You can customize TCP scanning ports by modifying the `configs/tcp_ports.json` f
 + **优化**: 改进HTML报告的响应式设计和视觉效果
 + **修复**: 修复了一些已知问题和bug
 
-### v1.0.0 (2023-05-15)
+### v1.0.0 (2025-06-15)
 + 首次发布
 
 ## 🙏 致谢 | Acknowledgments
@@ -232,9 +224,8 @@ You can customize TCP scanning ports by modifying the `configs/tcp_ports.json` f
 + [observer_ward](https://github.com/emo-crab/observer_ward) - 基于Rust的快速指纹识别工具
 + [hfinger](https://github.com/hazcod/hfinger) - 轻量级HTTP指纹工具
 
-
-
 ---
 
 <sub>Build with </sub><sub>❤️</sub><sub> by DrBlack</sub>
+
 
