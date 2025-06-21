@@ -45,7 +45,7 @@ go build -o nebulafinger cmd/*.go
 ```
 
 ### 直接下载预编译版本 | Download Pre-compiled Version
-从 [Releases](https://github.com/yourusername/nebulafinger/releases) 页面下载适合您系统的预编译版本。
+从 [Releases](https://github.com/drblack000/nebulafinger/releases) 页面下载适合您系统的预编译版本。
 
 ## 📁 项目结构 | Project Structure
 ```plain
@@ -90,8 +90,6 @@ NebulaFinger/
 # 扫描Web和TCP服务
 ./nebulafinger -t example.com -m all
 
-# 输出JSON格式
-./nebulafinger -t example.com -json -o result.json
 ```
 
 ### 命令行选项 | Command-line Options
