@@ -5,7 +5,7 @@
 
 [![Go 语言](https://img.shields.io/badge/Language-Go-blue?style=flat-square&logo=go)](https://go.dev) [![版本](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/Drblack000/NebulaFinger/releases)  [![Issues](https://img.shields.io/github/issues/Drblack000/NebulaFinger/issues?color=orange&logo=github)](https://github.com/Drblack000/NebulaFinger/issues) [![Stars](https://img.shields.io/github/stars/Drblack000/NebulaFinger?style=social)](https://github.com/Drblack000/NebulaFinger) [![博客](https://img.shields.io/badge/Blog-drblack.top-00A3E0?style=flat-square&logo=blogger)](https://drblack.top)
 </h1>
-
+</div>
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750495997599-9518963b-66d2-4d04-9f9b-6c53b355318b.png)
 
