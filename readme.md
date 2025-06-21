@@ -16,7 +16,7 @@
 
 ## 👨‍💻 关于作者 | About the Author
 + 作者: DrBlack
-+ GitHub: [drblack000](https://github.com/yourusername)
++ GitHub: [drblack000](https://github.com/drblack000)
 + Blog: [drblack.top](https://drblack.top)
 
 ## 📖 项目介绍 | Introduction
@@ -39,7 +39,7 @@
 ### 从源代码构建 | Build from Source
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/nebulafinger.git
+git clone https://github.com/drblack000/nebulafinger.git
 cd nebulafinger
 
 # 编译
