@@ -29,7 +29,7 @@
 
 ## ✨ 特性 | Features
 + **多维度指纹识别**：通过分析HTTP响应头、HTML内容、JS库、Favicon哈希等多维数据进行精准识别
-+ **TCP服务识别**：能够识别常见的TCP服务类型及版本
++ **服务指纹识别**：能够识别常见的服务类型及版本
 + **高效并发扫描**：支持多线程并发扫描，提高扫描效率
 + **多种输出格式**：支持控制台彩色输出、HTML报告
 + **丰富的指纹库**：使用开源指纹库，内置大量Web和服务指纹
@@ -62,7 +62,7 @@ NebulaFinger/
 ├── configs/                # 配置文件
 │   ├── fingerprint_weights.json  # 置信度权重配置
 │   ├── service_fingerprint_v4.json  # 服务指纹库
-│   ├── tcp_ports.json      # TCP端口配置
+│   ├── tcp_ports.json      # 服务端口配置
 │   └── web_fingerprint_v4.json  # Web指纹库
 ├── internal/               # 内部包
 │   ├── cluster/            # 指纹聚类算法
@@ -71,7 +71,7 @@ NebulaFinger/
 │   ├── scanner/            # 扫描器实现
 │   │   ├── core.go         # 核心扫描逻辑
 │   │   ├── http.go         # HTTP扫描
-│   │   └── tcp.go          # TCP服务扫描
+│   │   └── tcp.go          # 服务扫描
 │   ├── config.go           # 配置定义
 │   └── type.go             # 类型定义
 ├── go.mod                  # Go模块定义
@@ -91,7 +91,7 @@ NebulaFinger/
 # 扫描并生成HTML报告
 ./nebulafinger -t example.com -o report.html
 
-# 扫描Web和TCP服务
+# 扫描Web和服务服务
 ./nebulafinger -t example.com -m all
 
 ```
@@ -190,8 +190,8 @@ NebulaFinger采用智能置信度系统，为不同类型的匹配项分配不�
 }
 ```
 
-### 自定义TCP端口配置 | Custom TCP Port Configuration
-您可以通过修改`configs/tcp_ports.json`文件自定义TCP扫描端口，不建议设置过多，3-5个即可。
+### 自定义服务端口配置 
+您可以通过修改`configs/tcp_ports.json`文件自定义服务扫描端口，不建议设置过多，3-5个即可。
 ```json
 {
   "default_ports": [21, 22, 25, 80, 443, 1521, 3306, 5432, 6379, 8080, 8443, 9200, 27017],
