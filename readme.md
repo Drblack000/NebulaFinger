@@ -3,7 +3,7 @@
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29128302/1750492454371-08523dae-1e70-493a-aad2-e92e5366054a.png)
 
-🌳 Web指纹识别工具 | 一款高效的WEB与服务指纹识别工具
+          🌳 NebulaFinger | 一款高效的WEB与服务指纹识别工具
 
 ![](https://img.shields.io/badge/Language-Go-blue?style=flat-square&logo=go) ![](https://img.shields.io/badge/Version-1.0.0-green.svg) ![](https://img.shields.io/github/issues/Drblack000/NebulaFinger/issues?color=orange&logo=github)![](https://img.shields.io/github/stars/your-project?style=social)![](https://img.shields.io/badge/Blog-drblack.top-00A3E0?style=flat-square&logo=blogger)
 
