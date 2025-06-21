@@ -1,0 +1,21 @@
+{
+  "default_ports": [21, 22, 25, 80, 443, 1521, 3306, 6379],
+  "service_ports": {
+    "ftp": [21],
+    "ssh": [22],
+    "telnet": [23],
+    "smtp": [25, 587],
+    "http": [80, 8080, 8000, 8081, 8088],
+    "https": [443, 8443],
+    "oracle": [1521],
+    "mysql": [3306],
+    "postgresql": [5432],
+    "redis": [6379],
+    "mongodb": [27017, 27018],
+    "elasticsearch": [9200, 9300]
+  },
+  "scan_options": {
+    "max_port_count": 15,
+    "timeout_seconds": 3
+  }
+} 

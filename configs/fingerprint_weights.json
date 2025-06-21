@@ -1,0 +1,22 @@
+{
+  "matcher_weights": {
+    "favicon": 0.99,
+    "regex": {
+      "default": 0.85,
+      "server": 0.90,
+      "title": 0.95
+    },
+    "word": {
+      "default": 0.80,
+      "server": 0.85,
+      "title": 0.90
+    }
+  },
+  "combo_weights": {
+    "multiple_matchers": 0.10,
+    "favicon_with_others": 0.15,
+    "server_regex_with_title": 0.20
+  },
+  "min_confidence": 0.10,
+  "max_confidence": 1.0
+} 
