@@ -24,6 +24,12 @@
 
 <font style="color:rgba(0, 0, 0, 0.85);"></font>NebulaFinger（星云指纹），是一款强大的WEB与SERVICE指纹识别工具，能够快速识别网站使用的技术、框架、CMS系统以及SERVICE服务类型。通过构建特征->指纹映射、指纹库特征聚类，分析HTTP响应、Favicon图标、特征值等多维度数据，实现高精度的技术识别。
 
+本项目使用了优秀的开源指纹库 [FingerprintHub](https://github.com/0x727/FingerprintHub)，该指纹库包含大量Web应用和服务的识别规则，为本工具提供了强大的识别基础。
+
+## 📝 待办事项 | TodoList
+- 项目封装为MCP工具，可用于LLM调用 （目前暂未完善）
+- 特征映射模块完善补充（目前暂未完善）
+- 动态指纹捕获功能 （目前暂未完善）
 
 
 ## ✨ 特性 | Features
