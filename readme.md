@@ -22,7 +22,7 @@
 ## 📖 项目介绍 | Introduction
 <font style="color:rgba(0, 0, 0, 0.85);">像「星云」之浩瀚覆盖大量资产，借「指纹」之精准穿透技术迷雾。</font>
 
-<font style="color:rgba(0, 0, 0, 0.85);"></font>NebulaFinger（星云指纹），是一款强大的WEB与SERVICE指纹识别工具，能够快速识别网站使用的技术、框架、CMS系统以及SERVBVICE服务类型。通过构建特征->指纹映射、指纹库特征聚类，分析HTTP响应、Favicon图标、特征值等多维度数据，实现高精度的技术识别。
+<font style="color:rgba(0, 0, 0, 0.85);"></font>NebulaFinger（星云指纹），是一款强大的WEB与SERVICE指纹识别工具，能够快速识别网站使用的技术、框架、CMS系统以及SERVICE服务类型。通过构建特征->指纹映射、指纹库特征聚类，分析HTTP响应、Favicon图标、特征值等多维度数据，实现高精度的技术识别。
 
 
 
