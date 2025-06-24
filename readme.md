@@ -26,11 +26,17 @@
 
 本项目使用了优秀的开源指纹库 [FingerprintHub](https://github.com/0x727/FingerprintHub)，该指纹库包含大量Web应用和服务的识别规则，为本工具提供了强大的识别基础。
 
+## 🤖 AI代理集成 | AI Agent Integration
+NebulaFinger提供了用于AI代理集成的MCP（Model Control Protocol）接口。通过这个接口，大型语言模型（例如GPT-4、Claude等）可以直接操作NebulaFinger进行指纹识别。
+
+
+- **MCP专用项目**：[MCP-NebulaFinger](https://github.com/Drblack000/MCP_NebulaFinger) 提供了标准化的MCP接口实现
+
+要了解如何将NebulaFinger与AI代理集成，请参阅`MCP/README.md`文件中的详细说明。
 ## 📝 待办事项 | TodoList
-- 项目封装为MCP工具，可用于LLM调用 （目前暂未完善）
+- 项目封装为MCP工具，可用于LLM调用 （已完善 2025.6.24）
 - 特征映射模块完善补充（目前暂未完善）
 - 动态指纹捕获功能 （目前暂未完善）
-
 
 ## ✨ 特性 | Features
 + **多维度指纹识别**：通过分析HTTP响应头、HTML内容、JS库、Favicon哈希等多维数据进行精准识别
